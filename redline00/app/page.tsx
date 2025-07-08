@@ -90,10 +90,10 @@ export default function Home() {
               Especialistas em tuning, modificações e performance automotiva. Levamos seu carro ao próximo nível.
             </p>
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
-                <Link href="/precos">
+                <Link href="/precos"/>
                 <Phone className="mr-2 h-5 w-5" />
                 Solicitar Orçamento
-            </div>
+                </Button>
           </div>
         </div>
       </section>
