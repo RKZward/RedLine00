@@ -79,25 +79,31 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto text-center">
-          <div className="fade-in">
-            <h2 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Transforme Seu
-              <span className="gradient-text block">Veículo</span>
-            </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Especialistas em tuning, modificações e performance automotiva. Levamos seu carro ao próximo nível.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button onclick="location.href='/precos'" size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 flex items-center justify-center">
-                <Phone className="mr-2 h-5 w-5" />
-                Solicitar Orçamento
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="py-20 px-4">
+  <div className="container mx-auto text-center">
+    <div className="fade-in">
+      <h2 className="text-5xl md:text-7xl font-bold text-white mb-6">
+        Transforme Seu
+        <span className="gradient-text block">Veículo</span>
+      </h2>
+      <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        Especialistas em tuning, modificações e performance automotiva. Levamos seu carro ao próximo nível.
+      </p>
+
+      <div className="flex justify-center">
+        <Button
+          onClick={() => (window.location.href = "/precos")}
+          size="lg"
+          className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 flex items-center justify-center"
+        >
+          <Phone className="mr-2 h-5 w-5" />
+          Solicitar Orçamento
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Services Section */}
       <section id="servicos" className="py-20 px-4 bg-black/30">
