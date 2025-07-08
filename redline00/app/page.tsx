@@ -91,15 +91,9 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">
+                <Link href="/precos">
                 <Phone className="mr-2 h-5 w-5" />
                 Solicitar Orçamento
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-red-500 text-red-400 hover:bg-red-500 hover:text-white px-8 py-3 bg-transparent"
-              >
-                Ver Serviços
               </Button>
             </div>
           </div>
